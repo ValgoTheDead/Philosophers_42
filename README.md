@@ -1,4 +1,4 @@
-*** Time to think deeper, and contemplate the secrets of sharing memory, and synchronize the access to the data.***
+### Time to think deeper, and contemplate the secrets of sharing memory, and synchronize the access to the data.
 
 Imagine a scenario where you wanted to contemplate and find new philosophical ideas, but u wanted some inspiration, so you invited five of the most brilliant philosophers of your time,
 you arranged a beautiful round table and provided a plate containing the most tasteful and delicious spaghetti for them, yet you faced an issue, for some reason, each philosopher wants to use two forks to eat from the spaghetti, remember its delicious they want to eat the maximum, and since you have only five forks at home, each for philosopher, you need now to order and synchronize the eating, so when one of them try to eat, he will grab his fork and the fork of his fellow philosopher, without letting any one of them die from starvation, you need to find a way where all of them can eat, and think of course, because that's the main reason you invited them for, and a time for them to sleep, respect you guests they need to have some rest.
@@ -12,10 +12,10 @@ Universe and space image from: Mattia Verga, from pixabay, link : [Universe && S
 **New Concepts** :
 The new concepts we are going to learn in this project are:
 
-***> Thread.
+> Thread.
 > Mutexes.
 > Race Condition. (Data Race)
-> Deadlock.***
+> Deadlock.
 
 ##### ***Threads*** :
 Thread is a logical sequence of instructions inside a process, it is automatically managed by the operating system's kernel, think of it as a big company (process), and each section of the company is doing a job (thread), yet they are all joined inside of the company.
