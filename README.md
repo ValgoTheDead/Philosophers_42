@@ -1,3 +1,6 @@
+## Philosophers
+***Note: The information provieded might have wrong or unprecise information, its always on you to keep diving into the concepts, and find the real correct and precise knowledege.***
+
 ### Time to think deeper, and contemplate the secrets of sharing memory, and synchronize the access to the data.
 
 Imagine a scenario where you wanted to contemplate and find new philosophical ideas, but u wanted some inspiration, so you invited five of the most brilliant philosophers of your time,
