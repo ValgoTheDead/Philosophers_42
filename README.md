@@ -1,12 +1,16 @@
 ## Philosophers
+***
 ***Note: The information provieded might have wrong or unprecise information, its always on you to keep diving into the concepts, and find the real correct and precise knowledege.***
+***
+![Logo](Img/Philosophers.png)
+***
 
 ### Time to think deeper, and contemplate the secrets of sharing memory, and synchronize the access to the data.
 
 Imagine a scenario where you wanted to contemplate and find new philosophical ideas, but u wanted some inspiration, so you invited five of the most brilliant philosophers of your time,
 you arranged a beautiful round table and provided a plate containing the most tasteful and delicious spaghetti for them, yet you faced an issue, for some reason, each philosopher wants to use two forks to eat from the spaghetti, remember its delicious they want to eat the maximum, and since you have only five forks at home, each for philosopher, you need now to order and synchronize the eating, so when one of them try to eat, he will grab his fork and the fork of his fellow philosopher, without letting any one of them die from starvation, you need to find a way where all of them can eat, and think of course, because that's the main reason you invited them for, and a time for them to sleep, respect you guests they need to have some rest.
 
-![Logo](Dining_philosophers1.jpg)
+![Logo](Img/Dining_philosophers1.jpg)
 
 Philosophers and table image link : [Philosophers image](https://austingwalters.com/multithreading-dining-philosophers-problem/)
 Universe and space image from: Mattia Verga, from pixabay, link : [Universe && Space image](https://pixabay.com/photos/space-astronomy-galaxy-universe-9250868/)
@@ -59,7 +63,7 @@ lets say the we have two threads again (thread 1 and thread 2), and we have a st
 the first thread need to lock L1 then L2, then increment count += 1,
 in the same time, the second thread, will lock L2 first them L1, and then increment count += 1.
 
-![Logo](Deadlock_struct.png)
+![Logo](Img/Deadlock_struct.png)
 
 so as we said, the Mutex helps us regulate access timing of each thread to the targeted data, when we lock that section of code, the next thread will have to wait the first thread to unlock that section so it can access and do its job.
 
